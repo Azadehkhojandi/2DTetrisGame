@@ -10,6 +10,7 @@ public class Group : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
+        
         // Default position not valid? Then it's game over
         if (!IsValidGridPos())
         {
